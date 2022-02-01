@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500&display=swap');
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+  --font-family-WorkaSans:
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  grid-template-areas: 
+  "header aside"
+  "main aside"
+  "main aside";
+
+  grid-template-rows: 150px 1fr 30px;
+  grid-template-columns: 720px 720px;
+
+  background-color: #121214;
+}
+
+header{
+  grid-area: header;
+  display: flex;
+}
+
+main{
+  grid-area:main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+  display: flex;
+  width: 750px;
+  height: 48px;
+  z-index: 1;
+}
+
+.input{
+  display: flex;
+  width: 798px;
+
+  border-left: 8px solid #04D361 ;
+  filter:drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5))
+}
+
+aside{
+  grid-area: aside;
+  background-image:url(http://127.0.0.1:5500/assets/avatar.svg);
+  background-position: 100%;
+}
+
+
+.container_logo{
+  display: flex;
+  align-items:center;
+  margin-left: 1.8rem;
+  margin-top: 3rem;
+
+  width: 389px;
+  height: 94 px ;
+}
+.side_picture{
+  width: 720px;
+  height: 780px;
+}
+
+main .container{
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+
+.content_primary{ 
+  color: #04D361;
+  font-family:'Work Sans' sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.content_secondary{
+  margin: 9px 0px 0px 0px ;
+  color: #FFFFFF;
+  font-family: 'Spartan';
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.content_tertiary{
+  width: 647px;
+
+  color: #FFFFFF;
+  font-family: 'Spartan';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+.formulario_email{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  color: #FFFFFF;
+  font-family: 'Spartan';
+  font-weight: 700;
+  font-size: 16px;
+  
+}
+
+.formulario_action{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: #8257e5;
+  font-family: 'Spartan';
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+
+
+

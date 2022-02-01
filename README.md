@@ -1,7 +1,4 @@
 # Desafio: RocketNews
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dfa8a231-4bd3-44cf-89df-053f3da3ec8e/Untitled.png)
-
 ## **Índice**
 
 # 💻 Sobre o desafio
